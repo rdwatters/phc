@@ -1,0 +1,107 @@
+//https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+// Tablet
+$M:668px;
+// Desktop
+$L:1025px;
+// XL Screens
+$XL:1200px;
+
+$font: 'proximanova';
+$include-font-two: true;
+$font-two: 'akkurat';
+
+//Primary
+$cap-blue: rgb(0, 154, 191); //#009bbf
+$cap-gray: rgb(195, 198, 200); //#c3c7ca
+$cap-red: rgb(178, 30, 40); //#b41f28
+$cap-black: rgb(0, 0, 0); //#000000
+$cap-white: #ffffff;
+//Secondary
+$cap-orange: rgb(222, 139, 5); //#de8d28
+$cap-green: rgb(69, 161, 66); //#44a448
+$cap-purple: rgb(89, 44, 130); //#592c82
+
+// Background of the presentation
+$backgroundColor: white;
+
+// Primary/body text
+$mainFont: $font, sans-serif;
+$mainFontSize: 36px;
+$baseFontColor: #333333;
+$mainColor: $baseFontColor;
+
+
+// Vertical spacing between blocks of text
+$blockMargin: 20px;
+
+// Headings
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: $font-two, 'helvetica neue',helvetica,sans-serif;
+
+$headingColor: $baseFontColor;
+
+$h1Color:$baseFontColor;
+$h2Color:$baseFontColor;
+$h3Color:$baseFontColor;
+$h4Color:$baseFontColor;
+$h5Color:$baseFontColor;
+$h6Color:$baseFontColor;
+
+$h1FontFamily:$headingFont;
+$h2FontFamily:$headingFont;
+$h3FontFamily:$headingFont;
+$h4FontFamily:$headingFont;
+$h5FontFamily:$headingFont;
+$h6FontFamily:$headingFont;
+
+$h1FontWeight:400;
+$h2FontWeight:400;
+$h3FontWeight:400;
+$h4FontWeight:400;
+$h5FontWeight:400;
+$h6FontWeight:400;
+
+$h1HeadingTransform:none;
+$h2HeadingTransform:none;
+$h3HeadingTransform:none;
+$h4HeadingTransform:none;
+$h5HeadingTransform:none;
+$h6HeadingTransform:none;
+
+$paragraphColor:$mainColor;
+$blinkingTextColor:red;
+
+$headingLineHeight: 1.2;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: normal;
+$listFontColor: inherit;
+$dateAndTimeColor: $cap-white;
+$dateAndTimeTextTransform: uppercase;
+$dateAndTimeFontSize: .6em;
+$bodyFontWeight:200;
+$h1BorderWidth:4px;
+$h1BorderColor: $cap-black;
+$cap-logo-fill-color:$cap-blue;
+
+$heading1Size: 2.3em;
+$heading2Size: 2em;
+$heading3Size: 1.55em;
+$heading4Size: 1.2em;
+
+// Links and actions (ie, navigation arrows, progress bar bottom)
+$linkColor: $cap-red;
+$linkColorHover: lighten( $linkColor, 20% );
+$navArrowsColor: $cap-red;
+$navArrowsColorHover: lighten( $navArrowsColor, 20%);
+$navProgressBarColor: $linkColor;
+
+// Text selection
+$selectionBackgroundColor: #FF5E99;
+$selectionColor: #fff;
+
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+@mixin bodyBackground() {
+	background: $backgroundColor;
+}

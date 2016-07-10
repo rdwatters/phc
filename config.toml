@@ -1,0 +1,7 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Presentations"
+
+[Params]
+	presentationsubtitle = "Presentation Subtitle"
+	presentationdate = "2016-01-01"
