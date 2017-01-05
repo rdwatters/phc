@@ -10,7 +10,7 @@
   * Eg, [Dr. Richey's new blog](https://doctorrichey.wordpress.com/)
 2. Review of GA for Resident Content
   * Dropoff after landing page
-3. SEO
+3. SEO - connection between good content and SERPs
 4. Overview of Current Articles from NIPC and PMC
 5. "Life Preserver" as a Career Resources product; now vs then
 
