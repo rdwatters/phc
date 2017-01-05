@@ -6,7 +6,7 @@
 
 (Pulled largely from July 2016 presentation <http://rfec.updog.co>)
 
-1. Long-form vs short-form
+1. Article-based vs lists and short terms
 2. Review of GA for Resident Content
 3. SEO
 4. Overview of Current Articles from NIPC and PMC
