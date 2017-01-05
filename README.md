@@ -23,8 +23,3 @@
 1. Introduction of Process Map
 2. Explanation of Google docs (including template)
 3. Introduction to Editorial Calendar (link shared at meeting)
-
-## Notes from Meeting with Monique
-
-
-
