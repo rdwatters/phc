@@ -10,7 +10,7 @@
 2. Review of GA for Resident Content
 3. SEO
 4. Overview of Current Articles from NIPC and PMC
-5. "Life Preserver" now vs then
+5. "Life Preserver" as a Career Resources product; now vs then
 
 ### Object 2: Article Topics and Author Assignment
 
@@ -24,5 +24,7 @@
 2. Explanation of Google docs (including template)
 3. Introduction to Editorial Calendar (link shared at meeting)
 
-## Notes from Meeting
+## Notes from Meeting with Monique
+
+
 
