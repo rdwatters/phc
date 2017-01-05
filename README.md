@@ -7,7 +7,9 @@
 (Pulled largely from July 2016 presentation <http://rfec.updog.co>)
 
 1. Article-based vs lists and short terms
+  * Eg, Dr. Richey's new [blog](https://doctorrichey.wordpress.com/)
 2. Review of GA for Resident Content
+  * Dropoff after landing page
 3. SEO
 4. Overview of Current Articles from NIPC and PMC
 5. "Life Preserver" as a Career Resources product; now vs then
