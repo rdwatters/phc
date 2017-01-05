@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/objective-1/objective-1-sample/</loc>
+  </url>
+  
+  <url>
+    <loc>/objective-2/objective-2-sample/</loc>
+  </url>
+  
+  <url>
+    <loc>/objective-three/objective-3-sample/</loc>
+  </url>
+  
+  <url>
+    <loc>/objective-1/and-another-example/</loc>
+  </url>
+  
+</urlset>
