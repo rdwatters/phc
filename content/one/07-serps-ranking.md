@@ -1,5 +1,5 @@
 ---
-title: Does Longer Content Rank Better
+title: Should Blog Posts be Long?
 publishdate: 2017-01-07
 weight: 07
 ---

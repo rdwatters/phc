@@ -1,13 +1,11 @@
 ---
-title: What is long-form content?
-subtitle: And why do you hate us, Ryan?
+title: Why a New Direction?
+subtitle:
 publishdate: 2017-01-07
 weight: 05
 ---
 
-* "Long-form" does not mean "laborious"
-* > 1000 words; think of this like a *blog post*
-* SEO benefits
-* ![serps examples](images/serps.jpg)
-* Long-form content is *shareable* on social media
-  * How often do your friends share advertisements, banners, or commercials on their Twitter or Facebook accounts?
+* Search engine optimization (SEO). Content is the most important aspect of your website according to Google SEO standards
+* In order to make CAP events and membership more discoverable, we need to make content on our site discoverable
+* A website still has the farther marketing reach of any media
+* Not only are search engines smart enough to distinguish between valuable, unique, specialized content from "click bait," but end users are savvy as well. Single-sentence sales messaging, flashy text and images, are immediately identifiable as advertisements or click bait

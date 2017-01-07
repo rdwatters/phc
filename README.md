@@ -24,10 +24,7 @@ In January 2016, RFEC worked on a core modeling exercise to decide the most valu
   * Keep users on cap.org rather than send them to external sites
   * Develop content that relates specifically to pathology, the author's unique vantage point, and the benefits of CAP membership
 5. Why a new direction?
-  * SEO - content is the most important aspect of your website according to Google SEO standards
-  * In order to make CAP events and membership more discoverable, we need to make content on our site discoverable
-  * A website still has the farther marketing reach of any media
-  * Not only are search engines smart enough to distinguish between valuable, unique, specialized content from "click bait," but end users are savvy as well. Single-sentence sales messaging, flashy text and images, are immediately identifiable as advertisements or click bait
+
 6. What is "long-form"
   * "Long-form" does not mean "laborious"
   * > 1000 words; think of this like a *blog post*
@@ -59,8 +56,7 @@ In January 2016, RFEC worked on a core modeling exercise to decide the most valu
 
 3. The Ask
   * Keeping in mind the new editorial direction for content, I'd like to decide topics and assignments for blog posts in today's meeting
-  * Blog posts will provide more flexibility for marketing because we can direct target audiences to *content*
-    * For example, a blog post written about the benefits of attending an RFEC event has more potential for user engagement than a paragraph-long testimonial on a cap.org.page.
+
 5. Suggested Topic Outline: *Insider's Guide*
   * Guide developed originally in 2004
   * Revised by Dr. Rinehart and others in 2014

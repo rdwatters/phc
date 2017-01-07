@@ -2,7 +2,7 @@
 title: What is the New Direction?
 subtitle:
 publishdate: 2017-01-07
-weight: 03
+weight: 04
 ---
 
 In the Spring of 2016, a new editorial direction was developed for the Membership section of cap.org. This new direction was introduced to the RFEC during the July 2016 meeting in Chicago:
