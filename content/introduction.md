@@ -8,5 +8,5 @@ description:
 <ol class="homepage">
   <li>Editorial Direction (Review)</li>
   <li>Article Topics (<em>Insider's Guide</em>)</li>
-  <li>Process</li>
+  <li>Process (If time allows)</li>
 </ol>

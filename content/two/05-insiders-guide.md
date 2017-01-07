@@ -2,6 +2,7 @@
 title: Insider's Guide
 subtitle:
 publishdate: 2017-01-07
+weight: 05
 ---
 
 The group is able to decide whatever topics they feel are most relevant to create content around; however, as a starting point...
