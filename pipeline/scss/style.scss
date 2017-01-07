@@ -188,6 +188,13 @@ h2.objective-title {
   color: $cap-blue;
   font-weight: bold;
   border-bottom: 2px solid $cap-blue;
+  text-align: center;
+  ol,
+  ul {
+    display: block;
+    width: 100%;
+    text-align: center!important;
+  }
 }
 
 h3.objective-subtitle {
@@ -195,6 +202,31 @@ h3.objective-subtitle {
   font-weight: bold;
   color: #333333;
   text-transform: uppercase;
-  margin-left:.5em;
-  margin-right:.5em;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+[data-bgcolor="none"],
+[data-background-image] {
+  background-color: transparent!important;
+}
+
+span.footnote {
+  color: $cap-red;
+  font-weight: 700!important;
+}
+
+h3.slide-subtitle {
+  font-size: 1.2em;
+  color: lighten(#333333, 15%);
+  font-style: italic;
+}
+
+.content {
+  ul,
+  ol {
+    img {
+      max-height: 200px;
+    }
+  }
 }

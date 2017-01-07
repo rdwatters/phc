@@ -2,7 +2,7 @@
     <div class="reveal">
         <div class="slides">
             <section>
-                <h1>{{.Site.Title}}</h1>
+                <h1>{{.Site.Title | markdownify}}</h1>
                 {{with .Site.Params.presentationsubtitle}}
                 <h2 class="subtitle">{{.}}</h2>
                 {{end}}
@@ -17,13 +17,18 @@
                 {{ range where .Site.Pages ".Section" "one"}}
                     {{if eq .Weight 1}}
                     <section>
-                    <h2 class="objective-title">{{.Title}}</h2>
+                    <h2 class="objective-title">{{.Title | markdownify}}</h2>
                     <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
                     </section>
+                    {{else if .Params.isbg}}
+                    <section data-background="{{.Params.bgurl}}"></section>
                     {{else}}
                     <section>
-                        <h2>{{.Title}}</h2>
+                        <h2>{{.Title | markdownify}}</h2>
+                        {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{.}}</h3>{{end}}
+                        <div class="content">
                         {{.Content}}
+                        </div>
                     </section>
                     {{ end }}
                 {{ end }}
@@ -32,13 +37,18 @@
                 {{ range where .Site.Pages ".Section" "two"}}
                     {{if eq .Weight 1}}
                     <section>
-                    <h2 class="objective-title">{{.Title}}</h2>
+                    <h2 class="objective-title">{{.Title | markdownify}}</h2>
                     <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
                     </section>
+                    {{else if .Params.isbg}}
+                    <section data-background="{{.Params.bgurl}}"></section>
                     {{else}}
                     <section>
-                        <h2>{{.Title}}</h2>
+                        <h2>{{.Title | markdownify}}</h2>
+                        {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{.}}</h3>{{end}}
+                        <div class="content">
                         {{.Content}}
+                        </div>
                     </section>
                     {{ end }}
                 {{ end }}
@@ -46,17 +56,21 @@
             <section>
                 {{ range where .Site.Pages ".Section" "three"}}
                     {{if eq .Weight 1}}
-                        <section>
-                        <h2 class="objective-title">{{.Title}}</h2>
-                        <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
-                        </section>
-                        {{else}}
-                        <section>
-                            <h2>{{.Title}}</h2>
-                            {{.Content}}
-                        </section>
-                        {{ end }}
+                    <section>
+                    <h2 class="objective-title">{{.Title | markdownify}}</h2>
+                    {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{.}}</h3>{{end}}
+                    </section>
+                    {{else if .Params.isbg}}
+                    <section data-bgcolor="none" data-background="{{.Params.bgurl}}" class="fullbg"></section>
+                    {{else}}
+                    <section>
+                        <h2>{{.Title | markdownify}}</h2>
+                        <div class="content">
+                        {{.Content}}
+                        </div>
+                    </section>
                     {{ end }}
+                {{ end }}
             </section>
         </div>
     </div>
