@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+	{{ partial "head.html" . }}
+<body>
+  {{ partial "logo-homelink.html" . }}
+  {{ block "main" . }}
+
+  {{ end }}
+  {{ partial "reveal-scripts.html" . }}
+</body>
+</html>

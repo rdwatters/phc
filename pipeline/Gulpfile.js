@@ -28,7 +28,7 @@ gulp.task('sass', function() {
 
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
-  return gulp.src('js/partials/*.js')
+  return gulp.src('js/scripts/*.js')
     .pipe(concat('added.js'))
     .pipe(babel({
       presets: ['es2015']
@@ -42,7 +42,7 @@ gulp.task('scripts', function() {
 gulp.task('compile', ['sass', 'scripts'], function() {
   gulp.watch(['scss/*.scss', 'scss/partials/*scss'], ['sass']);
   gulp.watch("scss/partials/*.scss", ['sass']);
-  gulp.watch("js/partials/*.js", ['scripts']);
+  gulp.watch("js/scripts/*.js", ['scripts']);
   // gulp.watch("../content/**/*.md", ['markdown']);
 });
 

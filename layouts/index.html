@@ -1,8 +1,4 @@
-<!doctype html>
-<html>
-{{ partial "head.html" . }}
-<body>
-    {{partial "logo-homelink.html" . }}
+{{define "main"}}
     <div class="reveal">
         <div class="slides">
             <section>
@@ -11,188 +7,57 @@
                 <h2 class="subtitle">{{.}}</h2>
                 {{end}}
                 {{range where .Site.Pages ".Title" "Introduction"}}
-                {{.Content}}
+                    {{.Content}}
                 {{end}}
                 {{with .Site.Params.presentationdate}}
-                <br>
-                <br>
-                <time>{{dateFormat "January 2, 2006" . }}</time>
+                    <br><br><time>{{dateFormat "January 2, 2006" . }}</time>
                 {{end}}
             </section>
             <section>
-                <section>
-                    <h2>The <em>Only</em> Rule You Need to Know to Write Well for the Web...</h2>
-                    <h5 class="fragment">Wait for it...</h5>
-                    <h4 class="fragment">Good writing on the web is the same as good writing via any other vehicle. So as far as a single rule, <span class="important">there isn't one.</span></h4>
-                    <small class="fragment">BTW, the number 1 recommendation in the Google SEO guidelines is to focus on <em>creating good content</em>. For the purpose of this presentation, content = writing.</small>
-                </section>
-                <section>
-                    <h2>That said, how can we address the more quantifiable elements of web or web-first writing? What metrics and guidelines and tips can we share?</h2>
-                </section>
-                <section>
-                    <h1>Perhaps <em>this</em> is the most important rule for web writing:</h1>
-                    <p class="fragment">Metrics and methodologies <strong>only help us execute against a core content strategy statement.</strong></p>
-                </section>
-                <section>
-                    <h2>Example Core Content Strategy Statement</h2>
-                    <p class="fragment">ryansribs.com is the primary vehicle for communicating the <strong>rr</strong> brand and the last-touch attribution for the <strong>rr</strong> online conversion model. Ryansribs.com increases sales of <strong>rr</strong> merchandise by providing informative, useful content that makes fellow rib lovers feel smarter about rib-cooking methods and curious enough to return to the site for further content.</p>
-                    <small class="fragment">BTW, I was really, really hungry when I created this presentation.</small>
-                </section>
-                <section>
-                    <h3>Why is a core content strategy statement important when talking about writing?</h3>
-                    <blockquote class="fragment">There is nothing quite so useless as doing with great efficiency something that should not be done at all. <cite>- Peter Drucker</cite></blockquote>
-                </section>
-                <section>
-                    <h3>All writing needs to execute against strategy. Raymond Carver's "Cathedrals" is a masterpiece of short fiction, but it has no place on cap.org.</h3>
-                </section>
-                <section>
-                    <h2>Once you've established your strategy...</h2>
-                    <h4><em>Then</em> you can talk about leveraging writing, particularly in the context of content marketing, as a tactic to execute against strategy.</h4>
-                </section>
-                <section>
-                    <h2>So with the goal of executing against strategy in mind...</h2>
-                    <ul>
-                        <li>What guidelines or useful tips can we keep in mind while writing?</li>
-                        <li>How do we write for search engines so that what we write is both human and machine readable and therefor more discoverable?</li>
-                        <li>Easy wins?</li>
-                    </ul>
-                </section>
-                <section>
-                    <h1>Useful Writing Tips</h1>
-                </section>
-                <section>
-                    <h2><em>Identify</em> your audience...</h2>
-                    <p class="fragment">This can't be emphasized enough. If you haven't identified who you are writing to, how are you going to abide by any agreed-upon messaging?</p>
-                    <aside class="notes">Keep in mind that you do this naturally. You speak differently to your children than you do to you parents than you do to your colleagues. Muddied audience hierachies invariably eventuate in convoluted, and more importantly, unuseful content for our readers.</aside>
-                </section>
-                <section>
-                    <h2><em>Know</em> your audience...</h2>
-                    <p class="fragment">What does your audience want to do? Identify what they're trying to get done, and write something <em>useful</em> that will meet the dual purposes of helping your end user get what she wants while also mapping back to business objectives.</p>
-                </section>
-                <section>
-                    <h2>Think <em>web first</em> and be </em>semantic</em></h2>
-                    <h3 class="fragment">Separation of concerns...</h3>
-                    <h3 class="fragment">Machines are SUPER dumb!</h3>
-                    <pre class="fragment"><code>
-        <h1>Okay, what are these things bracketing this text?</h1>
-                    </code></pre>
-
-                </section>
-                <section>
-                    <h2>GO NICHE</h2>
-                    <p class="fragment">Search alogorithms are a nebulous beast, but BrainRank is going to advantage unique, long-form articles from <em>credible</em> sources that are linked to, and link to, other credible sources. The Internet is a very big place. Does the article you're writing give your end user/reader something that he/she can't find somewhere else? <br/><strong>Examples:</strong></p>
-                    <ul>
-                        <li class="fragment"><strong class="bad">How to Deal with Difficult Colleagues at Your New Job</strong></li>
-                        <li class="fragment"><strong class="good">Use Mayo Clinic Recommendations to Show Expertise as a New Pathologist</strong></li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>Focus on usefulness.</h2>
-                    <p class="fragment">It's better to show than tell. Demonstrate the value you provide through expertise. Your readers should feel <em>smarter</em> after they read an article you write. You can write a beautiful, belletristic article on the benefits of a specific product, but users don't want to read a 40-one advertisement, let alone a 1400-word one.</p>
-
-                </section>
-                <section>
-                    <h2>Think of how would you tag or categorize what you're writing...</h2>
-                    <p class="fragment">A search algorithm has no emotional response to what you write. How can you give a machine information about the information (ie, metadata) that's being crawled?</p>
-                </section>
-                <section>
-                    <h2>Use Specialized Language...</h2>
-                    <h3 class="fragment">But only for specialize audiences...</h3>
-                    <blockquote>B2B sites and other sites with specialized content that target professionals or enthusiasts should use their audiences’ jargon to communicate more precisely and professionally. <cite>- Nielsen</cite></blockquote>
-                    <aside class="notes">
-                        Think in terms of the Archives web property vs cap.org. Who is our target audience? We often hear the mantra that writing for the web should focus on high readability scores and concision, but there are times where an abundance of plain language fails in transmitting expertise and requires circumlocution in order to communicate what would be otherwise terse writing between specific groups of professionals.
-                    </aside>
-                </section>
-                <section>
-                    <h2>That said, "specialized" does not mean "complex"...</h2>
-                    <p class="fragment">Leverage jargon and specialized language for better economy in the way you communicate with your readers, but still use the simplest, cleanest structures needed to effificiently communicate your message.</p>
-                </section>
-                <section>
-                    <h1>GET TO SOME ACTIONABLE EXAMPLES, RYAN!</h1>
-                </section>
-                <section>
-                    <h2>SEO - Headings Part 1</h2>
-                    <p class="fragment">We often think of headings as <em>connected</em> to body copy, but the web forces us to think of headings as <em>related to</em> or <em>reflective of</em> body copy instead.</p>
-                    <p class="fragment"><strong>Takeaway:</strong> Make sure the heading works out of context to drive conversions.</p>
-                    <ul>
-                        <li class="fragment"><strong class="bad">Bad</strong> Ways to Improve Yourself</li>
-                        <li class="fragment"><strong class="good">Good</strong> Use Your iPhone as a Teleporation Device</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>SEO - Headings Part 2</h2>
-                    <p class="fragment">Tell your reader something <em>useful.</em></p>
-                    <p class="fragment"><strong>Takeaway:</strong> Your user or reader came to the site to get something done. Throw them a bone.</p>
-                    <ul>
-                        <li class="fragment"><strong class="bad">Bad</strong> The Danger that Lurks Within</li>
-                        <li class="fragment"><strong class="good">Good</strong> Chicken McNuggets Cause Jock Itch</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>SEO - Headings Part 3</h2>
-                    <p class="fragment">Avoid cutesy or faddish terminology.</p>
-                    <p class="fragment"><strong>Takeaway:</strong> Credibility is everything on and off the web. Build trust through professional language.</p>
-                    <ul>
-                        <li class="fragment"><strong class="bad">Bad</strong> Beyonce is totes jelly of Taylor Swift</li>
-                        <li class="fragment"><strong class="good">Good</strong> Adults Who Use the Word "Totes" are Embarrassing and Should Be Avoided</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>SEO - Headings Part 4</h2>
-                    <p class="fragment">Focus on concision and omit unnecessary words.</p>
-                    <p class="fragment"><strong>Takeaway: </strong> We already know our end users came to the site to get something done; let's not waste their time.</p>
-                    <ul>
-                        <li class="fragment"><strong class="bad">Fortune 500 Company Walmart purchases Exxon Mobile for $134 Billion Dollars</strong></li>
-                        <li class="fragment"><strong class="good">Walmart purchases Exxon for $134B</strong></li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>Other Easy Wins: Avoidable Words</h2>
-                    <h4><em>"The right words can make or break trust; they affect your tone of voice and how people perceive you."</em> - Nielsen</h4>
-                    <ul>
-                        <li><em><strong>Utilize.</strong></em> Just say "use"</li>
-                        <li><em><strong>Enables.</strong></em> This takes on a paternal, potentially condescending tone.</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>Other Easy Wins: Avoidable Words (cont'd)</h2>
-                    <ul>
-                        <li><em><strong>Very.</strong></em> (and siblings "really," "extremely," and "quite"). Intensifiers add unnecessary sentence length when aiming for concision.</li>
-                        <li><em><strong>Inauthentic introductory clauses ("In today's society," "In today's world," "We understand that...")</strong></em>. Relating a story from your perspective in these cases does not mean you understand the customer's perspective. Focus on facts and examples.</li>
-                        <li><em><strong>End user.</strong></em> Unless writing to a target audience of UX specialists, this term can take on negative connotations.</li>
-                    </ul>
-                </section>
-                <section>
-                    <h1>GOOD LUCK KEN!</h1>
-                </section>
+                {{ range where .Site.Pages ".Section" "one"}}
+                    {{if eq .Weight 1}}
+                    <section>
+                    <h2 class="objective-title">{{.Title}}</h2>
+                    <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
+                    </section>
+                    {{else}}
+                    <section>
+                        <h2>{{.Title}}</h2>
+                        {{.Content}}
+                    </section>
+                    {{ end }}
+                {{ end }}
+            </section>
+            <section>
+                {{ range where .Site.Pages ".Section" "two"}}
+                    {{if eq .Weight 1}}
+                    <section>
+                    <h2 class="objective-title">{{.Title}}</h2>
+                    <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
+                    </section>
+                    {{else}}
+                    <section>
+                        <h2>{{.Title}}</h2>
+                        {{.Content}}
+                    </section>
+                    {{ end }}
+                {{ end }}
+            </section>
+            <section>
+                {{ range where .Site.Pages ".Section" "three"}}
+                    {{if eq .Weight 1}}
+                        <section>
+                        <h2 class="objective-title">{{.Title}}</h2>
+                        <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
+                        </section>
+                        {{else}}
+                        <section>
+                            <h2>{{.Title}}</h2>
+                            {{.Content}}
+                        </section>
+                        {{ end }}
+                    {{ end }}
             </section>
         </div>
     </div>
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
-    <script>
-    // More info https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        history: true,
-
-        // More info https://github.com/hakimel/reveal.js#dependencies
-        dependencies: [{
-            src: 'plugin/markdown/marked.js'
-        }, {
-            src: 'plugin/markdown/markdown.js'
-        }, {
-            src: 'plugin/notes/notes.js',
-            async: true
-        }, {
-            src: 'plugin/highlight/highlight.js',
-            async: true,
-            callback: function() {
-                hljs.initHighlightingOnLoad();
-            }
-        }]
-    });
-    </script>
-    <script async src="/js/added.min.js"></script>
-</body>
-
-</html>
+{{end}}

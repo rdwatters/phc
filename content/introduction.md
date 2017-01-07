@@ -5,7 +5,7 @@ publishdate: 2017-01-05
 description:
 ---
 
-<ol class="home">
+<ol class="homepage">
   <li>Editorial Direction (Refresh)</li>
   <li>Article Topics (<em>Insider's Guide</em>)</li>
   <li>Process</li>

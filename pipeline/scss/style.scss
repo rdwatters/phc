@@ -182,3 +182,19 @@ small {
     color: $cap-blue;
   }
 }
+
+h2.objective-title {
+  font-size: 2.1em;
+  color: $cap-blue;
+  font-weight: bold;
+  border-bottom: 2px solid $cap-blue;
+}
+
+h3.objective-subtitle {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+  margin-left:.5em;
+  margin-right:.5em;
+}

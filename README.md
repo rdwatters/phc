@@ -2,11 +2,15 @@
 
 ## Outline
 
+1. Review of Editorial Direction
+2. Article Topics
+3. Process (Contingent on #2)
+
 ### Objective 1: Review of Editorial Direction
 
 (Pulled largely from July 2016 presentation <http://rfec.updog.co>)
 
-1. Article-based vs lists and short terms
+1. Article-based (ie, "blog post") vs lists and short descriptions
   * Eg, [Dr. Richey's new blog](https://doctorrichey.wordpress.com/)
 2. Review of GA for Resident Content
   * Dropoff after landing page
