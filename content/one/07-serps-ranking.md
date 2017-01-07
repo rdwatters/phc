@@ -1,9 +1,9 @@
 ---
-title: Should Blog Posts be Long?
+title: Longer Content = Better SEO?
 publishdate: 2017-01-07
 weight: 07
 ---
 
-This depends on content. Articles should only be as long as they need to be.
+Not always, but...
 
-![serps rankings and article length](/images/serps.jpg)
+![serps rankings and article length class=fragment](/images/serps.jpg)
