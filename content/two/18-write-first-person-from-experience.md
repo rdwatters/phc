@@ -5,8 +5,8 @@ publishdate: 2017-01-07
 weight: 18
 ---
 
-In order to effectively build credibility with our target audiences (ie, resident pathologists and pathologists at large), we need to write in the context of *shared* experience:
+To build credibility with our target audiences, try to write in the context of *shared* experience:
 
-* Write in the first person ("I")
-* Pull from *specific* personal experiences whenever possible
-* Talk about what you learned from your experience rather than seeming overly sanctimonious in doling out advice
+* Write in the first person ("I") or directly to the audience (ie, second person)
+* Pull from *specific* personal experiences whenever possible; if not personal experiences, defer to a narrative rather than distanced style.
+* Write about how you figured out what *you* should do from your experience rather than doling out unsubstantiated advice directly to your reader.

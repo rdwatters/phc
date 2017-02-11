@@ -5,6 +5,8 @@ publishdate: 2017-02-10
 weight: 88
 ---
 
+**15 minutes**
+
 1. Describe the single most stressful event you experienced as a medical student and how you would handle it differently if you were given a do-over.
 2. Walk your reader through your most meaningful experience with the CAP (eg, a meeting).
 3. Tell me about the moment you realized you wanted to become a pathologist.
