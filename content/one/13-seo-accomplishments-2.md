@@ -1,5 +1,5 @@
 ---
-title: Results of the Change (Part 2)
+title: SEO Accomplishments
 publishdate: 2017-01-07
 weight: 13
 ---
@@ -14,4 +14,3 @@ weight: 13
     * #1 on Google SERP and even above CAP.org "Pathology Careers" page
 * Search term: *transition to pathology fellowship*
     * #1 on Google SERP
-p

@@ -183,6 +183,10 @@ small {
   strong.good {
     color: $cap-blue;
   }
+  li > em {
+    color:$cap-blue;
+    font-weight:600;
+  }
   strong > em {
     color: $cap-red;
   }
@@ -204,9 +208,9 @@ h2.objective-title {
 
 h3.objective-subtitle {
   font-size: 1.3em;
-  font-weight: bold;
-  color: #333333;
-  text-transform: uppercase;
+  font-weight: normal;
+  color: lighten($baseFontColor,20%);
+  // text-transform: uppercase;
   margin-left: .5em;
   margin-right: .5em;
 }
@@ -260,4 +264,6 @@ a.homepage-link {
 
 span.author-byline {
   border-bottom:2px solid $baseFontColor;
+  font-size:.9em;
+  text-transform:uppercase;
 }
