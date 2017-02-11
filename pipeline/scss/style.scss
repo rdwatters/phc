@@ -101,6 +101,8 @@ span.subtitle {
   max-width: 20%;
   margin-right: auto;
   margin-left: auto;
+  margin-top:-1em;
+  margin-bottom:.25em;
   padding: .25em;
   text-transform: $dateAndTimeTextTransform;
   font-size: $dateAndTimeFontSize;
@@ -254,4 +256,8 @@ a.homepage-link {
     list-style-image:disc;
     margin-bottom:.75em;
   }
+}
+
+span.author-byline {
+  border-bottom:2px solid $baseFontColor;
 }

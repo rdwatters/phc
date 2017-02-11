@@ -2,6 +2,7 @@
     <div class="reveal">
         <div class="slides">
             <section>
+            {{$authorbyline := .Site.Params.authorbyline}}
                 <h1>{{.Site.Title | markdownify}}</h1>
                 {{with .Site.Params.presentationsubtitle}}
                 <h2 class="presentation-subtitle">{{.}}</h2>
@@ -10,7 +11,7 @@
                     {{.Content}}
                 {{end}}
                 {{with .Site.Params.presentationdate}}
-                    <br><br><time>{{dateFormat "January 2, 2006" . }}</time>
+                    <br><br><time>{{dateFormat "January 2, 2006" . }}</time><span class="author-byline">{{$authorbyline}}</span>
                 {{end}}
             </section>
             <section>
