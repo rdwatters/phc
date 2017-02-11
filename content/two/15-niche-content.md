@@ -13,4 +13,4 @@ weight: 15
     * Pretend you're writing to a junior colleague sitting right across from you
     * We have a well-defined niche. We're lucky!
 4. Niche = *differentiation* = better SEO value
-5. Ask "Is this content my ready can only get from the CAP?"
+5. Ask "Is this the kind of content my reader can *only* get from the CAP?"
