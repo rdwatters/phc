@@ -230,10 +230,25 @@ h3.slide-subtitle {
     }
   }
 }
-
+//homepage
 h2.presentation-subtitle {
   font-size:1.2em;
   color:$cap-blue-dark;
   text-transform:uppercase;
   font-weight:bold;
+}
+a.homepage-link {
+  font-family:courier,monospace!important;
+}
+
+.additional-resources {
+  font-size:20px!important;
+  text-align:left;
+  a {
+    display:block;
+    font-weight:bold;
+    border-bottom:3px solid $cap-red;
+    list-style-image:disc;
+    margin-bottom:.75em;
+  }
 }
