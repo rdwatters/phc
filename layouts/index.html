@@ -25,7 +25,7 @@
                     {{else}}
                     <section>
                         <h2>{{.Title | markdownify}}</h2>
-                        {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{.}}</h3>{{end}}
+                        {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{. | markdownify}}</h3>{{end}}
                         <div class="content">
                         {{.Content}}
                         </div>
@@ -45,7 +45,7 @@
                     {{else}}
                     <section>
                         <h2>{{.Title | markdownify}}</h2>
-                        {{with .Params.subtitle}}<h3 class="slide-subtitle">{{.}}</h3>{{end}}
+                        {{with .Params.subtitle}}<h3 class="slide-subtitle">{{. | markdownify}}</h3>{{end}}
                         <div class="content">
                         {{.Content}}
                         </div>

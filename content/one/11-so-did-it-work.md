@@ -1,5 +1,6 @@
 ---
-title: Results of the Change (Part 1)
+title: So did it work?
+subtitle:  Results of NIPC Improvements
 publishdate: 2017-01-07
 weight: 11
 ---
@@ -8,8 +9,8 @@ weight: 11
     * **Life Preserver** = 1,211 (12 months)
     * **Career Resources** = 901 (2.5 months)
 * *Bounce Rates*
-    * **Life Preserver** = 67% - 100% (avg 74%)
-    * **Career Resources** = 0% - 75.61% (avg 58%)
+    * **Life Preserver** = 67% to 100% (avg 74%)
+    * **Career Resources** = 0% to 75.61% (avg 58%)
 * *Time on page*
     * **Life Preserver** = 1:20
     * **Career Resources** = 2:51

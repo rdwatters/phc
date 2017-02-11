@@ -181,6 +181,9 @@ small {
   strong.good {
     color: $cap-blue;
   }
+  strong > em {
+    color: $cap-red;
+  }
 }
 
 h2.objective-title {

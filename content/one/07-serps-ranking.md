@@ -1,5 +1,5 @@
 ---
-title: Longer Content = Better SEO?
+title: Does Longer Content Always Mean Better SEO?
 publishdate: 2017-01-07
 weight: 07
 ---
