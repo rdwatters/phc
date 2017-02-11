@@ -8,7 +8,7 @@ weight: 15
 **This is easier than you think...**
 
 1. You are all pathologists
-2. Your audience is pathologists
+2. Your target audience are all pathologists
 3. Write about your experiences as a pathologist for a pathologist
     * Pretend you're writing to a junior colleague sitting right across from you
     * We have a well-defined niche. We're lucky!

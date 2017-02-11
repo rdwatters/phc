@@ -9,4 +9,4 @@ weight: 10
     * Eg, "The boy kicked the ball."
     * The intended message is now *direct*, thereby making it easier to intuit and more engaging when read
 * Which sentence sounds more conversational? "John, I drank your last beer." vs "John, your last beer was drunk by me."
-* The content we are writing for NIPC should at least start as a conversation or story. Rhetorically, we need *invented* rather than *established* ethos (ie, credibility).
+* NIPC content should try to start with conversation or story. Rhetorically, we need *invented* rather than *established* ethos (ie, credibility).
