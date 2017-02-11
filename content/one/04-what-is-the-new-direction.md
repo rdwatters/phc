@@ -5,7 +5,7 @@ publishdate: 2017-01-07
 weight: 04
 ---
 
-In the Spring of 2016, a new editorial direction was developed for the Membership section of cap.org. This new direction was introduced to the RFEC during the July 2016 meeting in Chicago:
+In early 2016, a new editorial direction was developed for the Membership section of cap.org. This new direction was introduced to NIPC in May:
 
 * Shift from bullet points to "long-form content"; specifically, member-generated articles written in the first person
 * Focus on keeping users on cap.org rather than sending them to external sites

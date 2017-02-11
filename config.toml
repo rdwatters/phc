@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Digital Content"
+title = "Web Writing"
 
 [Params]
-	presentationsubtitle = "RFEC Meeting, Phoenix AZ"
-	presentationdate = "2017-01-07"
+	presentationsubtitle = "NIPC Meeting, San Diego, CA"
+	presentationdate = "2017-02-11"
