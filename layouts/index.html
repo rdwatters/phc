@@ -4,7 +4,7 @@
             <section>
                 <h1>{{.Site.Title | markdownify}}</h1>
                 {{with .Site.Params.presentationsubtitle}}
-                <h2 class="subtitle">{{.}}</h2>
+                <h2 class="presentation-subtitle">{{.}}</h2>
                 {{end}}
                 {{range where .Site.Pages ".Title" "Introduction"}}
                     {{.Content}}
@@ -45,7 +45,7 @@
                     {{else}}
                     <section>
                         <h2>{{.Title | markdownify}}</h2>
-                        {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{.}}</h3>{{end}}
+                        {{with .Params.subtitle}}<h3 class="slide-subtitle">{{.}}</h3>{{end}}
                         <div class="content">
                         {{.Content}}
                         </div>
@@ -58,13 +58,14 @@
                     {{if eq .Weight 1}}
                     <section>
                     <h2 class="objective-title">{{.Title | markdownify}}</h2>
-                    {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{.}}</h3>{{end}}
+                    <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
                     </section>
                     {{else if .Params.isbg}}
                     <section data-bgcolor="none" data-background="{{.Params.bgurl}}" class="fullbg"></section>
                     {{else}}
                     <section>
                         <h2>{{.Title | markdownify}}</h2>
+                        {{with .Params.subtitle}}<h3 class="slide-subtitle">{{.}}</h3>{{end}}
                         <div class="content">
                         {{.Content}}
                         </div>

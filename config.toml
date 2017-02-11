@@ -1,7 +1,8 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Web Writing"
+title = "Digital Content Update & Writing Workshop"
 
 [Params]
 	presentationsubtitle = "NIPC Meeting, San Diego, CA"
 	presentationdate = "2017-02-11"
+	usefontawesome = true

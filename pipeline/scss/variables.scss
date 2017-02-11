@@ -10,16 +10,21 @@ $font: 'proximanova';
 $include-font-two: false;
 $font-two: 'akkurat';
 
-//Primary
+//Primary Colors
 $cap-blue: rgb(0, 154, 191); //#009bbf
+$cap-blue-dark: rgb(0, 105, 143); //#006072
 $cap-gray: rgb(195, 198, 200); //#c3c7ca
+$cap-gray-dark: rgb(92,102,112); //#5d6770
+$cap-gray-light: $cap-gray;
 $cap-red: rgb(178, 30, 40); //#b41f28
 $cap-black: rgb(0, 0, 0); //#000000
-$cap-white: #ffffff;
-//Secondary
-$cap-orange: rgb(222, 139, 5); //#de8d28
-$cap-green: rgb(69, 161, 66); //#44a448
-$cap-purple: rgb(89, 44, 130); //#592c82
+$cap-white: rgb(255,255,255); //#ffffff
+
+//Secondary Colors
+$cap-orange: rgb(211, 94, 19); //#de8d28
+$cap-green: rgb(64, 135, 64); //#44a448
+$cap-purple: rgb(92, 44, 129); //#592c82
+$dark-gray: $cap-gray-dark;
 
 // Background of the presentation
 $backgroundColor: white;
