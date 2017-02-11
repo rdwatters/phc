@@ -1,6 +1,6 @@
 ---
 title: Write for Search Engines
-subtitle: SEO
+subtitle: ...when appropriate...
 publishdate: 2017-01-07
 weight: 24
 ---

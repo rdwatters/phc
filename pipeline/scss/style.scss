@@ -90,6 +90,7 @@ span.subtitle {
 
 .reveal section a {
   color: $linkColor;
+  font-weight: 600;
 }
 
 .reveal section time {
@@ -129,6 +130,9 @@ span.subtitle {
     width: 100%;
     display: block;
     clear: both;
+  }
+  li a, a {
+    font-weight:600;
   }
 }
 

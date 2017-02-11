@@ -1,11 +1,11 @@
 ---
 title: Writing Prompt
-subtitle: Pick one or two of the following...
+subtitle:
 publishdate: 2017-02-10
 weight: 88
 ---
 
-**15 minutes**
+Pick one (or more) of the following... (**15 minutes**)
 
 1. Describe the single most stressful event you experienced as a medical student and how you would handle it differently if you were given a do-over.
 2. Tell a group of pathologists about your most meaningful experience with the CAP (eg, a meeting).

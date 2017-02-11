@@ -1,5 +1,5 @@
 ---
-title: Bios Guidelines
+title: Guidelines for Bios
 publishdate: 2017-01-07
 weight: 09
 ---
