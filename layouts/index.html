@@ -7,7 +7,7 @@
                 {{with .Site.Params.presentationsubtitle}}
                 <h2 class="presentation-subtitle">{{.}}</h2>
                 {{end}}
-                {{range where .Site.Pages ".Title" "Introduction"}}
+                {{range where .Site.RegularPages ".Title" "Introduction"}}
                     {{.Content}}
                 {{end}}
                 {{with .Site.Params.presentationdate}}
@@ -15,11 +15,11 @@
                 {{end}}
             </section>
             <section>
-                {{ range where .Site.Pages ".Section" "one"}}
+                {{ range where .Site.RegularPages ".Section" "one"}}
                     {{if eq .Weight 1}}
                     <section>
-                    <h2 class="objective-title">{{.Title | markdownify}}</h2>
-                    <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
+                        <h2 class="objective-title">{{.Title | markdownify}}</h2>
+                        <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
                     </section>
                     {{else if .Params.isbg}}
                     <section data-background="{{.Params.bgurl}}"></section>
@@ -35,7 +35,7 @@
                 {{ end }}
             </section>
             <section>
-                {{ range where .Site.Pages ".Section" "two"}}
+                {{ range where .Site.RegularPages ".Section" "two"}}
                     {{if eq .Weight 1}}
                     <section>
                     <h2 class="objective-title">{{.Title | markdownify}}</h2>
@@ -55,11 +55,11 @@
                 {{ end }}
             </section>
             <section>
-                {{ range where .Site.Pages ".Section" "three"}}
+                {{ range where .Site.RegularPages ".Section" "three"}}
                     {{if eq .Weight 1}}
                     <section>
-                    <h2 class="objective-title">{{.Title | markdownify}}</h2>
-                    <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
+                        <h2 class="objective-title">{{.Title | markdownify}}</h2>
+                        <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
                     </section>
                     {{else if .Params.isbg}}
                     <section data-bgcolor="none" data-background="{{.Params.bgurl}}" class="fullbg"></section>

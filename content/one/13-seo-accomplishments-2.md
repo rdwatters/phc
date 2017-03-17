@@ -5,7 +5,7 @@ weight: 13
 ---
 
 * Search term: *career resources pathologists*
-    * #1 on Google SERP
+    * #1 on Google Search engine result page (SERP)
 * Search term: *new in practice pathologists*
     * #1 on Google SERP (and all top 10 results)
 * Search term: *pathology career resources*

@@ -5,7 +5,7 @@ publishdate: 2017-01-07
 weight: 04
 ---
 
-The new editorial direction for the Membership section of cap.org was introduced to NIPC in May 2016:
+The new editorial direction for the Membership section of cap.org was introduced to PMC, NIPC, and RFEC in 2016:
 
 * **Shift from bullet points and external resources to...**
     * "long-form" content; specifically, member-generated articles ("blog posts") written in the first person

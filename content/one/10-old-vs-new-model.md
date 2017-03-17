@@ -1,11 +1,11 @@
 ---
-title: NIPC Specifically...
-subtitle:
+title: A Case Example...
+subtitle: Looking at NIPC specifically...
 publishdate: 2017-01-07
 weight: 10
 ---
 
-<span class="fragment"><strong>Old vs New</strong></span>
+<span class="fragment"><strong>NIPC: Old vs New</strong></span>
 
 * Originally developed career "resources" called "Life Preserver"
 * Pages were mostly bullet points and links to external sites

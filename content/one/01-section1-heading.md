@@ -1,6 +1,7 @@
 ---
 title: New Editorial Direction
-subtitle: Review of Member-generated, Long-form Content
+subtitle: CAP Content Aimed at Members
 publishdate: 2017-02-10
 weight: 01
 ---
+

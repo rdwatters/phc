@@ -8,7 +8,7 @@ description:
 [`https://nipc-2017-02.netlify.com`](https://nipc-2017-02.netlify.com)
 
 <ol class="homepage">
-  <li>Editorial Direction & Accomplishments</li>
-  <li>Web Writing Best Practices</li>
-  <li>Status Updates/Logistics</li>
+    <li>New Editorial Direction</li>
+    <li>Implications for PMRG</li>
 </ol>
+

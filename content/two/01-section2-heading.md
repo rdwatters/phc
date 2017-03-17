@@ -1,6 +1,6 @@
 ---
-title: Web Writing Best Practices
-subtitle: "Learn to Write the Perfect Blog Post in 90 Minutes <span class='fragment'>(Maybe...)</span>"
+title: PHC
+subtitle: Can this be applied to PMRG?
 publishdate: 2017-01-07
 weight: 01
 ---

@@ -1,9 +1,9 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Digital Content Update & Writing Workshop"
+title = "CAP.org Membership New Editorial Model"
 
 [Params]
-	presentationsubtitle = "NIPC Meeting, San Diego, CA"
-	presentationdate = "2017-02-11"
+	presentationsubtitle = "PHC, June 2017"
+	presentationdate = "2017-06-01"
 	usefontawesome = true
 	authorbyline = "Ryan Watters, ELS; Digital Content Manager"

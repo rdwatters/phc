@@ -1,6 +1,6 @@
 ---
 title: Why a New Direction?
-subtitle: And **why** do we need to focus on web writing best practices?
+subtitle:
 publishdate: 2017-01-07
 weight: 05
 ---
