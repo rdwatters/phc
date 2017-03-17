@@ -1,6 +1,6 @@
 ---
 title: Why the Insights Section
-subtitle: Background
+subtitle:
 publishdate: 2017-01-07
 weight: 06
 ---
