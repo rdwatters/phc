@@ -9,7 +9,7 @@ weight: 13
 * Search term: *new in practice pathologists*
     * #1 on Google SERP (and all top 10 results)
 * Search term: *pathology career resources*
-    * #1 on Google SERP (above ASCP Careers Center and Monster.com, Boo-yah!)
+    * #1 on Google SERP
 * Search: term: *career resources pathology*
     * #1 on Google SERP and even above CAP.org "Pathology Careers" page
 * Search term: *transition to pathology fellowship*

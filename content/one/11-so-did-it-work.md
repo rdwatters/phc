@@ -14,6 +14,5 @@ weight: 11
 * *Time on page*
     * **Life Preserver** = 1:20
     * **Career Resources** = 2:51
-    * Riddle and Robboy articles = 6:35 and 5:33, respectively
 
-<span class="fragment footnote">Cool, so what about SEO?</span>
+<span class="fragment footnote">What about SEO?</span>
