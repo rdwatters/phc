@@ -9,4 +9,8 @@ weight: 09
     * Other content types that fit this model as well
     * **Note:** Some authors of insights may not be PHC members
 * Assigning writers and review partners
+    * Leadership as initial editors?
 * Work with Digital to develop an editorial calendar
+* **Next Call**
+    * Include TOC and Resource Guide
+    * See what needs to be pulled out
