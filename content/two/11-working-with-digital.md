@@ -6,7 +6,7 @@ weight: 11
 ---
 
 * Ryan Watters, Digital Content Manager, is a *dedicated resource*
-* You have options for creating content
+* Authors have options for creating content
     * Traditional article (drafts, edits)
     * Q&A (decide questions beforehand, phone interview)
 * Editorial Process
