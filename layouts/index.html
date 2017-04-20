@@ -20,7 +20,7 @@
                     <br><br><time>{{dateFormat "January 2, 2006" . }}</time><span class="author-byline">{{$authorbyline}}</span>
                 {{end}}
             </section>
-            previously just...
+            <!-- previously just... -->
             <!-- range .Site.Pages.GroupBy "Section"-->
             {{ range (where (where .Site.Pages "Kind" "!=" "home") "Kind" "!=" "taxonomyTerm").GroupBy "Section"}}
                 <section>
