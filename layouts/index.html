@@ -20,12 +20,12 @@
                     <br><br><time>{{dateFormat "January 2, 2006" . }}</time><span class="author-byline">{{$authorbyline}}</span>
                 {{end}}
             </section>
-            {{ range .Site.Pages.GroupBy "Section"}}
+            {{ range (where (where .Site.Pages "Kind" "!=" "home") "Kind" "!=" "taxonomyTerm").GroupBy "Section"}}
                 <section>
-                    {{ range .Pages }}
+                    {{ range .Pages.ByWeight }}
                         {{- if eq .Kind "section" -}}
                         <section>
-                            <h2 class="objective-title">{{.Title | markdownify }}</h2>
+                            <h2 class="objective-title">{{.Title | markdownify }} {{.Kind}}</h2>
                             {{ with .Params.subtitle }}
                             <h3 class="objective-subtitle">{{ . | markdownify }}</h3>
                             {{ end }}
@@ -42,66 +42,6 @@
                     {{ end }}
                 </section>
             {{ end }}
-            <!-- <section>
-                {{ range where .Site.RegularPages ".Section" "one"}}
-                    {{if eq .Weight 1}}
-                    <section>
-                        <h2 class="objective-title">{{.Title | markdownify}}</h2>
-                        <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
-                    </section>
-                    {{else if .Params.isbg}}
-                    <section data-background="{{.Params.bgurl}}"></section>
-                    {{else}}
-                    <section>
-                        <h2>{{.Title | markdownify}}</h2>
-                        {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{. | markdownify}}</h3>{{end}}
-                        <div class="content">
-                        {{.Content}}
-                        </div>
-                    </section>
-                    {{ end }}
-                {{ end }}
-            </section> -->
-            <!-- <section>
-                {{ range where .Site.RegularPages ".Section" "two"}}
-                    {{if eq .Weight 1}}
-                    <section>
-                    <h2 class="objective-title">{{.Title | markdownify}}</h2>
-                    <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
-                    </section>
-                    {{else if .Params.isbg}}
-                    <section data-background="{{.Params.bgurl}}"></section>
-                    {{else}}
-                    <section>
-                        <h2>{{.Title | markdownify}}</h2>
-                        {{with .Params.subtitle}}<h3 class="slide-subtitle">{{. | markdownify}}</h3>{{end}}
-                        <div class="content">
-                        {{.Content}}
-                        </div>
-                    </section>
-                    {{ end }}
-                {{ end }}
-            </section> -->
-            <!-- <section>
-                {{ range where .Site.RegularPages ".Section" "three"}}
-                    {{if eq .Weight 1}}
-                    <section>
-                        <h2 class="objective-title">{{.Title | markdownify}}</h2>
-                        <h3 class="objective-subtitle">{{.Params.subtitle | markdownify}}</h3>
-                    </section>
-                    {{else if .Params.isbg}}
-                    <section data-bgcolor="none" data-background="{{.Params.bgurl}}" class="fullbg"></section>
-                    {{else}}
-                    <section>
-                        <h2>{{.Title | markdownify}}</h2>
-                        {{with .Params.subtitle}}<h3 class="slide-subtitle">{{.}}</h3>{{end}}
-                        <div class="content">
-                        {{.Content}}
-                        </div>
-                    </section>
-                    {{ end }}
-                {{ end }}
-            </section> -->
         </div>
     </div>
 {{end}}
