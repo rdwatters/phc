@@ -7,3 +7,8 @@ title = "CAP.org Membership New Editorial Model"
 	presentationdate = "2017-04-21"
 	usefontawesome = true
 	authorbyline = "Ryan Watters, ELS; Digital Content Manager"
+	siteurl= "https://phc.netlify.com"
+
+[taxonomies]
+	tags = ""
+	categories = ""
