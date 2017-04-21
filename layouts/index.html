@@ -15,7 +15,7 @@
                 {{range $ind, $sec := .Site.Sections}}
                     <li>{{with $.Site.GetPage "section" $ind}}{{.Title | markdownify}}{{end}}</li>
                 {{end}}
-                </ol>
+                </ol>s
                 {{with .Site.Params.presentationdate}}
                     <br><br><time>{{dateFormat "January 2, 2006" . }}</time><span class="author-byline">{{$authorbyline}}</span>
                 {{end}}
