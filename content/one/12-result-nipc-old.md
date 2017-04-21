@@ -1,5 +1,5 @@
 ---
-title: 'Old: "life preserver cap"?'
+title: 'Old SEO: "life preserver cap"?'
 publishdate: 2017-01-07
 weight: 12
 ---
