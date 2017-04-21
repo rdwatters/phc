@@ -27,7 +27,7 @@
                     {{ range .Pages.ByWeight }}
                         {{- if eq .Kind "section" -}}
                         <section>
-                            <h2 class="objective-title">{{.Title | markdownify }} {{.Kind}}</h2>
+                            <h2 class="objective-title">{{.Title | markdownify }}</h2>
                             {{ with .Params.subtitle }}
                             <h3 class="objective-subtitle">{{ . | markdownify }}</h3>
                             {{ end }}
