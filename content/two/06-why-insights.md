@@ -3,7 +3,7 @@ title: Why the Insights Section
 subtitle:
 publishdate: 2017-01-07
 weight: 06
-draft: true
+draft: false
 ---
 
 1. Length is near that needed for article content

@@ -6,5 +6,5 @@ weight: 03
 draft: true
 ---
 
-PHC is already in a better position than most committees in that section 1 has "Insights from Adopter."
+PHC is already in a better position than most committees in that section 1 has "Insights from Adopter," as well as a distributed authorship model where different authors are leveraged for peer review.
 

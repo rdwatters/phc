@@ -3,7 +3,7 @@ title: Process
 subtitle:
 publishdate: 2017-01-07
 weight: 11
-draft: true
+draft: false
 ---
 
 * Ryan Watters, Digital Content Manager, is a *dedicated resource*
