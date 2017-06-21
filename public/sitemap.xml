@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/one/</loc>
+  </url>
+  
+  <url>
+    <loc>/three/</loc>
+  </url>
+  
+  <url>
+    <loc>/two/</loc>
+  </url>
+  
+  <url>
+    <loc>/one/04-what-is-the-new-direction/</loc>
+  </url>
+  
+  <url>
+    <loc>/one/05-why-a-new-direction/</loc>
+  </url>
+  
+  <url>
+    <loc>/one/06-what-is-long-form/</loc>
+  </url>
+  
+  <url>
+    <loc>/one/07-serps-ranking/</loc>
+  </url>
+  
+  <url>
+    <loc>/one/09-are-other-committees-creating-blog-posts/</loc>
+  </url>
+  
+  <url>
+    <loc>/one/10-old-vs-new-model/</loc>
+  </url>
+  
+  <url>
+    <loc>/one/11-so-did-it-work/</loc>
+  </url>
+  
+  <url>
+    <loc>/one/12-result-nipc-old/</loc>
+  </url>
+  
+  <url>
+    <loc>/one/13-seo-accomplishments-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
