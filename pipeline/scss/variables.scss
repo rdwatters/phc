@@ -31,7 +31,7 @@ $backgroundColor: white;
 
 // Primary/body text
 $mainFont: $font, sans-serif;
-$mainFontSize: 36px;
+$mainFontSize: 28px;
 $baseFontColor: #333333;
 $mainColor: $baseFontColor;
 
@@ -41,7 +41,7 @@ $blockMargin: 20px;
 
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
-$headingFont: $font, 'helvetica neue',helvetica,sans-serif;
+$headingFont: $font, 'Avenir','Avenir Next','helvetica neue',helvetica,sans-serif;
 
 $headingColor: $baseFontColor;
 
@@ -89,8 +89,8 @@ $h1BorderWidth:4px;
 $h1BorderColor: $cap-black;
 $cap-logo-fill-color:$cap-blue;
 
-$heading1Size: 2.3em;
-$heading2Size: 2em;
+$heading1Size: 2em;
+$heading2Size: 1.8em;
 $heading3Size: 1.55em;
 $heading4Size: 1.2em;
 

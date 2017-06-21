@@ -5,6 +5,6 @@ publishdate: 2017-02-11
 weight: 09
 ---
 
-* NIPC has created and published 3 articles with 3 articles ready to publish
+* NIPC has created and published 7 articles with 7 articles ready to publish
 * PMC published 1 article in 2016 with intent to publish quarterly
-* RFEC committed to monthly articles starting Q2
+* RFEC has published 1 article with plans to move to monthly publishing next month
