@@ -1,6 +1,6 @@
 ---
-title: Why the Insights Section
-subtitle:
+title: PMRG From Print to Web
+subtitle: Insights as a Model
 publishdate: 2017-01-07
 weight: 06
 draft: false
