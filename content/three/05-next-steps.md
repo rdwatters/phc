@@ -10,7 +10,7 @@ draft: false
     * Digital: put together a new version of the PHC page
     * Article is featured in top right of members.cap.org
 * Articles will be published monthly thereafter
-* Wednesday, June 8th, 9:00 AM Central
+* Wednesday, June 28th, 9:00 AM Central
     * Conference call with PMRC
     * Review high-level editorial guidelines for revising PMRG content and developing new content. (Guidelines available [here](https://docs.google.com/document/d/1Q1nAT5k80kIs39-jfiOx_0tHuqPWnlKEUUoOwMpKK3I/edit?usp=sharing).)
     * Brainstorm for new article topics
