@@ -1,10 +1,10 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "CAP.org Membership New Editorial Model"
+title = "CAP.org Member-generated Content: New Editorial Model"
 
 [Params]
 	presentationsubtitle = "Introduction for PHC"
-	presentationdate = "2017-04-21"
+	presentationdate = "2017-06-23"
 	usefontawesome = true
 	authorbyline = "Ryan Watters, ELS; Digital Content Manager"
 	siteurl= "https://phc.netlify.com"

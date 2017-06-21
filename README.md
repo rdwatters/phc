@@ -1,5 +1,3 @@
-# New Editorial Direction: PHC Introduction
+## New Editorial Model PHC Presentation
 
-## March 2017
 
-*

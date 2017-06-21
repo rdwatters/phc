@@ -12,9 +12,12 @@
                 <p><a href="{{.}}"><code>{{.}}</code></a></p>
                 {{ end }}
                 <ol class="homepage">
-                {{range $ind, $sec := .Site.Sections}}
+                {{ range $.Site.Home.Sections }}
+                <li>{{.Title}}</li>
+                {{ end }}
+                <!-- {{range $ind, $sec := .Site.Sections}}
                     <li>{{with $.Site.GetPage "section" $ind}}{{.Title | markdownify}}{{end}}</li>
-                {{end}}
+                {{end}} -->
                 </ol>s
                 {{with .Site.Params.presentationdate}}
                     <br><br><time>{{dateFormat "January 2, 2006" . }}</time><span class="author-byline">{{$authorbyline}}</span>

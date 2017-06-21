@@ -1,5 +1,5 @@
 ---
-title: Background: What is the New Direction?
+title: "Background: What is the New Direction?"
 subtitle:
 publishdate: 2017-01-07
 weight: 04
