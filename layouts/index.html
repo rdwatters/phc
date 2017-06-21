@@ -12,22 +12,18 @@
                 <p><a href="{{.}}"><code>{{.}}</code></a></p>
                 {{ end }}
                 <ol class="homepage">
-                {{ range $.Site.Home.Sections }}
-                <li>{{.Title}}</li>
+                {{ range $.Site.Params.sections }}
+                {{ with $.Site.GetPage "section" . }}<li>{{.Title}}</li>{{end}}
                 {{ end }}
-                <!-- {{range $ind, $sec := .Site.Sections}}
-                    <li>{{with $.Site.GetPage "section" $ind}}{{.Title | markdownify}}{{end}}</li>
-                {{end}} -->
-                </ol>s
+                </ol>
                 {{with .Site.Params.presentationdate}}
                     <br><br><time>{{dateFormat "January 2, 2006" . }}</time><span class="author-byline">{{$authorbyline}}</span>
                 {{end}}
             </section>
             <!-- previously just... -->
             <!-- range .Site.Pages.GroupBy "Section"-->
-            {{ range (where (where .Site.Pages "Kind" "!=" "home") "Kind" "!=" "taxonomyTerm").GroupBy "Section"}}
                 <section>
-                    {{ range .Pages.ByWeight }}
+                    {{ range where .Site.Pages "Section" "one" }}
                         {{- if eq .Kind "section" -}}
                         <section>
                             <h2 class="objective-title">{{.Title | markdownify }}</h2>
@@ -46,7 +42,46 @@
                         {{ end }}
                     {{ end }}
                 </section>
-            {{ end }}
+                <section>
+                    {{ range where .Site.Pages "Section" "two" }}
+                        {{- if eq .Kind "section" -}}
+                        <section>
+                            <h2 class="objective-title">{{.Title | markdownify }}</h2>
+                            {{ with .Params.subtitle }}
+                            <h3 class="objective-subtitle">{{ . | markdownify }}</h3>
+                            {{ end }}
+                        </section>
+                        {{else}}
+                        <section>
+                            <h2>{{.Title | markdownify}}</h2>
+                            {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{. | markdownify}}</h3>{{end}}
+                            <div class="content">
+                            {{.Content}}
+                            </div>
+                        </section>
+                        {{ end }}
+                    {{ end }}
+                </section>
+                <section>
+                    {{ range where .Site.Pages "Section" "three" }}
+                        {{- if eq .Kind "section" -}}
+                        <section>
+                            <h2 class="objective-title">{{.Title | markdownify }}</h2>
+                            {{ with .Params.subtitle }}
+                            <h3 class="objective-subtitle">{{ . | markdownify }}</h3>
+                            {{ end }}
+                        </section>
+                        {{else}}
+                        <section>
+                            <h2>{{.Title | markdownify}}</h2>
+                            {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{. | markdownify}}</h3>{{end}}
+                            <div class="content">
+                            {{.Content}}
+                            </div>
+                        </section>
+                        {{ end }}
+                    {{ end }}
+                </section>
         </div>
     </div>
 {{end}}

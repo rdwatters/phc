@@ -8,3 +8,4 @@ title = "CAP.org Member-generated Content"
 	usefontawesome = true
 	authorbyline = "Ryan Watters, ELS; Digital Content Manager"
 	siteurl = "https://phc.netlify.com"
+	sections = [ "one","two", "three"]
