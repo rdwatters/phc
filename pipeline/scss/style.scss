@@ -19,6 +19,11 @@ section.has-light-background {
     }
 }
 
+html,
+body {
+    font-weight: 400;
+}
+
 h1,
 h2,
 h3 {
@@ -55,7 +60,7 @@ div.cap-logo {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    opacity:.7;
+    opacity: .7;
 }
 
 a.logo-homelink {
@@ -237,8 +242,11 @@ h3.slide-subtitle {
 }
 
 .content {
+    p,
     ul,
-    ol {
+    ol,
+    li {
+        font-weight: 400;
         img {
             max-height: 200px;
         }
