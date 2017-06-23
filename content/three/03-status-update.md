@@ -7,7 +7,7 @@ weight: 03
 ---
 
 * **Anderson**. *HLA Genotyping*
-    * Review finished by Digital and awaiting finalization
+    * Review finished by Digital and author; quick round of copy editing before finalization.
 * **Patel**. *Circulating Tumor DNA: Emerging Technologies and Applications* (working title)
     * First round of review by Digital complete; continuing to add content
 * **Bry**. *Insights Section* (title TBD)
