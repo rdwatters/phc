@@ -12,7 +12,5 @@ draft: false
     * Brainstorm for new article topics
 * Conference calls scheduled between Digital Content Manager and authors
 * PHC publishing schedule will be added to the master editorial calendar
-    * i.e., the *single source of truth for all publishing-related milestones*
-    * Available as a [permalink here](https://docs.google.com/spreadsheets/d/1PY7stz-MtTOis6k6Qnzm9dcCA70G5golj9gFXeXX-oI/edit?usp=sharing)
 
 
