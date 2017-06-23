@@ -90,7 +90,7 @@ span.subtitle {
 
 .reveal section a {
     color: $linkColor;
-    font-weight: 600;
+    font-weight: bolder;
 }
 
 .reveal section time {
@@ -133,7 +133,7 @@ span.subtitle {
     }
     li a,
     a {
-        font-weight: 600;
+        font-weight: bolder;
     }
 }
 
@@ -190,7 +190,7 @@ small {
     }
     li > em {
         color: $cap-blue;
-        font-weight: 600;
+        font-weight: bolder;
     }
     strong > em {
         color: $cap-red;
