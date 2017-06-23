@@ -11,6 +11,6 @@ draft: false
     * Review high-level editorial guidelines for revising PMRG content and developing new content. (Guidelines available [here](https://docs.google.com/document/d/1Q1nAT5k80kIs39-jfiOx_0tHuqPWnlKEUUoOwMpKK3I/edit?usp=sharing).)
     * Brainstorm for new article topics
 * Conference calls scheduled between Digital Content Manager and authors
-* PHC publishing schedule will be added to the master editorial calendar
+* PHC publishing schedule will be added to the [master editorial calendar](https://docs.google.com/spreadsheets/d/1PY7stz-MtTOis6k6Qnzm9dcCA70G5golj9gFXeXX-oI/edit?usp=sharing)
 
 
