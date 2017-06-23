@@ -8,4 +8,4 @@ weight: 14
 
 ![Image of a cup with life preserver. class=fragment](/images/nipc-old-2.jpg)
 
-<span class="footnote fragment">A tasteful hat to complement your new cup holder...</span>
+<span class="footnote fragment">A classy hat to complement your new cup holder...</span>
