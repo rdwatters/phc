@@ -15,4 +15,4 @@ draft: false
         * Easier for collaboration
         * Avoid version control issues
 * Editorial calendar, the single source of truth for all publishing-related milestones
-    * Available as a read-only [permalink here](https://docs.google.com/spreadsheets/d/1PY7stz-MtTOis6k6Qnzm9dcCA70G5golj9gFXeXX-oI/edit?usp=sharing)
+    * Available as a read-only [permalink](https://docs.google.com/spreadsheets/d/1PY7stz-MtTOis6k6Qnzm9dcCA70G5golj9gFXeXX-oI/edit?usp=sharing)
