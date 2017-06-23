@@ -19,6 +19,14 @@ section.has-light-background {
   }
 }
 
+h1,h2,h3 {
+  font-weight:bold;
+}
+
+h2.slide-title {
+  font-weight:bold;
+}
+
 div.slides {
   z-index: 9999;
 }
@@ -41,7 +49,7 @@ div.cap-logo {
   min-height: 100vh;
   min-width: 100vw;
   max-width: 100vw;
-  background-image: url(https://dl.dropboxusercontent.com/s/i2q37qtpjd6wvok/cap-logo-light-opacity.svg?dl=0);
+  background-image: url(/images/cap-logo-light-opacity.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }

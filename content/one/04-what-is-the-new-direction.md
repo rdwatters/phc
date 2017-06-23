@@ -8,7 +8,9 @@ weight: 04
 The new editorial direction for the Membership section of cap.org was introduced to PMC, NIPC, and RFEC in 2016:
 
 * **Major Shift:** Moving from bullet points and external resources to...
-    * "long-form" content; specifically, member-generated articles ("blog posts") written in the first person
-    * Focus on keeping users on cap.org rather than sending them to external sites
-    * Develop content that relates specifically to pathology, the author's unique vantage point and experience, and demonstrates the benefits of CAP membership
-    * Improve discoverability and credibility (eg, through SEO best practices)
+    * **Long-form content**, specifically member-generated articles, often written in the first person
+    * **Keep users on CAP.org**. Don't turn users away by pointing them to external links or requiring them to download print-based documents
+    * **Pathology specific**. Content should be as pathology-centric as possible and should showcase the author's unique vantage point and experience
+        * Extol the benefits of CAP membership (when possible/appropriate)
+        * Demonstrate the expertise of CAP's highly engaged members
+    * **SEO discoverability and credibility**. Leverage SEO best practices and write content that is both human and machine readable. 

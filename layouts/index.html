@@ -1,4 +1,6 @@
 {{define "main"}}
+    <!-- empty div for dots background -->
+    <div class="cap-logo"></div>
     <div class="reveal">
         <div class="slides">
             <!-- Opening page -->
@@ -33,7 +35,7 @@
                         </section>
                         {{else}}
                         <section>
-                            <h2>{{.Title | markdownify}}</h2>
+                            <h2 class="slide-title">{{.Title | markdownify}}</h2>
                             {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{. | markdownify}}</h3>{{end}}
                             <div class="content">
                             {{.Content}}
@@ -53,7 +55,7 @@
                         </section>
                         {{else}}
                         <section>
-                            <h2>{{.Title | markdownify}}</h2>
+                            <h2 class="slide-title">{{.Title | markdownify}}</h2>
                             {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{. | markdownify}}</h3>{{end}}
                             <div class="content">
                             {{.Content}}
@@ -73,7 +75,7 @@
                         </section>
                         {{else}}
                         <section>
-                            <h2>{{.Title | markdownify}}</h2>
+                            <h2 class="slide-title">{{.Title | markdownify}}</h2>
                             {{with .Params.subtitle}}<h3 class="fragment slide-subtitle">{{. | markdownify}}</h3>{{end}}
                             <div class="content">
                             {{.Content}}

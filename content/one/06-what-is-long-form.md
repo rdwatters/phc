@@ -6,7 +6,10 @@ publishdate: 2017-01-07
 ---
 
 * > 1000 words; NB, length is determined by content
-* If you don't like the term *long form*, use *blog post* or *article*
-* Long-form content is *shareable* on social media. Consider...
-  * How often do colleagues share articles online?
-  * How often do they share advertisements, banners, or commercials?
+* *Long form* is not a bad thing 
+    * *Blog post* 
+    * *Article*
+* But *why*? Long-form content is *shareable* on social media. 
+* Consider...
+    * How often do colleagues share articles online (e.g. LinkedIn, Facebook, Twitter, CAPConnect)?
+    * How often do colleagues share advertisements, banners, fliers, or commercials?
