@@ -2,7 +2,7 @@
 title: Does Longer Content = Better SEO?
 subtitle:
 publishdate: 2017-01-07
-weight: 07
+weight: 08
 ---
 
 Not always, but...
