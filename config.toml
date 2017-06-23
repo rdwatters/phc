@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "CAP.org Member-generated Content"
 
 [Params]
-	presentationsubtitle = "Introduction, New Editorial Model"
+	presentationsubtitle = "PHC Introduction to the New Editorial Model"
 	presentationdate = "2017-06-23"
 	usefontawesome = true
 	authorbyline = "Ryan Watters; Digital Content Manager"
