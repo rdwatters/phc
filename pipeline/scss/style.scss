@@ -24,6 +24,17 @@ body {
     font-weight: 400;
 }
 
+li blockquote.fragment,
+li blockquote.fragment p,
+blockquote.fragment,
+blockquote.fragment p {
+    font-weight: 400;
+    font-style: italic;
+    color: $cap-red!important;
+    @include card(4);
+    padding:.25em;
+}
+
 h1,
 h2,
 h3 {

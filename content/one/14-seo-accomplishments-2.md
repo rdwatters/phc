@@ -1,7 +1,7 @@
 ---
 title: SEO Accomplishments
 publishdate: 2017-01-07
-weight: 13
+weight: 14
 ---
 
 * Search term: *career resources pathologists*

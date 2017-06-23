@@ -9,10 +9,6 @@ publishdate: 2017-01-07
 * "Long form" is already the most common content format on web: 
     * *Blog posts* 
     * *Newspaper or journal articles*
-* But *why*? Long-form content is *shareable* on social media. 
-* Consider...
-    * How often do colleagues share articles online (e.g. LinkedIn, Facebook, Twitter, CAPConnect)?
-    * How often do colleagues share advertisements, banners, fliers, or commercials?
-* What about curation, lists, or abstracts?
-    * Users are more likely to seek out digital versions of these abstracts through a) PubMed and b) Google Scholar
-    * E.g., PMRG could be transfered to the site as articles discussing the logic behind inclusion of abstracts rather than a list of abstracts themselves.
+* W/r/t text-driven content, long-form is the crux of *content marketing*:
+
+<blockquote class="fragment">marketing through online material that does not explicitly promote a brand but is intended to stimulate interest by providing content that makes users feel smarter, more engaged, or eager to learn more...</blockquote>
