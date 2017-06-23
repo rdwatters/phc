@@ -5,12 +5,11 @@ publishdate: 2017-01-07
 weight: 04
 ---
 
-The new editorial direction for the Membership section of cap.org was introduced to PMC, NIPC, and RFEC in 2016:
+The new editorial direction for the Membership section of cap.org was introduced to PMC, NIPC, and RFEC in 2016. The direction represents a major shift from bullet points and external resources to...
 
-* **Major Shift:** Moving from bullet points and external resources to...
-    * **Long-form content**, specifically member-generated articles, often written in the first person
-    * **Keep users on CAP.org**. Don't turn users away by pointing them to external links or requiring them to download print-based documents
-    * **Pathology specific**. Content should be as pathology-centric as possible and should showcase the author's unique vantage point and experience
-        * Extol the benefits of CAP membership (when possible/appropriate)
-        * Demonstrate the expertise of CAP's highly engaged members
-    * **SEO discoverability and credibility**. Leverage SEO best practices and write content that is both human and machine readable. 
+* **Long-form content**, specifically member-generated articles, often written in the first person
+* **Keep users on CAP.org**. Don't turn users away by pointing them to external links or requiring them to download print-based documents
+* **Pathology specific**. Content should be as pathology-centric as possible and should showcase the author's unique vantage point and experience
+    * Extol the benefits of CAP membership (when possible/appropriate)
+    * Demonstrate the expertise of CAP's highly engaged members
+* **SEO discoverability and credibility**. Leverage SEO best practices and write content that is both human and machine readable. 

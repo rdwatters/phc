@@ -6,6 +6,6 @@ title = "CAP.org Member-generated Content"
 	presentationsubtitle = "Introduction, New Editorial Model"
 	presentationdate = "2017-06-23"
 	usefontawesome = true
-	authorbyline = "Ryan Watters, ELS; Digital Content Manager"
+	authorbyline = "Ryan Watters; Digital Content Manager"
 	siteurl = "https://phc.netlify.com"
 	sections = [ "one","two", "three"]
