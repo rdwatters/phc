@@ -3,6 +3,7 @@ title: SEO Accomplishments
 publishdate: 2017-01-07
 weight: 14
 ---
+**May 2017**:
 
 * Search term: *career resources pathologists*
     * #1 on Google Search engine result page (SERP)
